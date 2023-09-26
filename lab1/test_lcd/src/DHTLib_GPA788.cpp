@@ -41,7 +41,7 @@
 DHTLIB_ErrorCode dhtlib_gpa788::read11()
 {
     // READ VALUES
-    DHTLIB_ErrorCode rv = _readSensor(DHTLIB_DHT_WAKEUP);
+    DHTLIB_ErrorCode rv = _readSensor(DHTLIB_DHT11_WAKEUP);
     if (rv != DHTLIB_ErrorCode::DHTLIB_OK)
     {
         humidity    = static_cast<double>(DHTLIB_ErrorCode::DHTLIB_INVALID_VALUE); // invalid value, or is NaN prefered?
@@ -162,7 +162,7 @@ DHTLIB_ErrorCode dhtlib_gpa788::_readSensor(uint8_t wakeupDelay)
 DHTLIB_ErrorCode dhtlib_gpa788::_read()
 {
     // READ VALUES
-    DHTLIB_ErrorCode rv = _readSensor(DHTLIB_DHT_WAKEUP);
+    DHTLIB_ErrorCode rv = _readSensor(DHTLIB_DHT11_WAKEUP);
     if (rv != DHTLIB_ErrorCode::DHTLIB_OK)
     {
         humidity    = static_cast<double>(DHTLIB_ErrorCode::DHTLIB_INVALID_VALUE);  // invalid value, or is NaN prefered?

@@ -1,4 +1,4 @@
-# 1 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 1 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 /*
 
  * test_lcd.ino
@@ -42,11 +42,11 @@
  * de cours.
 
  */
-# 23 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 23 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 // Classe pour afficher des caractères à l'aide du LCD
-# 25 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 2
+# 25 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 2
 // Classe pour mesurer la température et l'humidité calculée
-# 27 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 2
+# 27 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 2
 
 
 /* ---------------------------------------------------------------
@@ -72,7 +72,7 @@
          diagramme électrique donné sur le protocole de laboratoire.
 
    --------------------------------------------------------------- */
-# 41 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 41 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 /* ---------------------------------------------------------------
 
@@ -95,7 +95,7 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
    original de ChipTemp.
 
    --------------------------------------------------------------- */
-# 53 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 53 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 const float DECALAGE{316.0}; //332.70; //335.2; // Choisir la bonne...
 const float GAIN{1.22}; //1.06154;              // Choisir la bonne...
 dhtlib_gpa788 DHT;
@@ -106,7 +106,7 @@ const int DHT11_PIN{7};
    Fonction d'initialisation obligatoire (exécutée 1 seule fois).
 
    --------------------------------------------------------------- */
-# 61 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 61 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 void setup() {
   // Pour afficher la température sur le terminal série
   Serial.begin(9600);
@@ -115,6 +115,9 @@ void setup() {
   // peut perdre des caractères. Ce problème n'existe pas sur la carte
   // de l'Arduino.
   waitUntil(2000);
+
+  // Régler la broche utilisée pour le capteur DHT11
+  DHT.setConnectedPin(DHT11_PIN);
 
   // Pour l'afficheur LCD
   // 0) Il s'agir d'un afficheur 16 x 2
@@ -131,7 +134,7 @@ void setup() {
    (Exécutée comme une fonction dans une boucle sans fin)
 
    --------------------------------------------------------------- */
-# 82 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 85 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 const int16_t NB_MSG_COUNT{2};
 void loop() {
   // Alterner entre le message de bienvenue et la température 
@@ -176,7 +179,7 @@ void loop() {
    et utiliser une unité de temps à notre guise.
 
    --------------------------------------------------------------- */
-# 120 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 123 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 void waitUntil(uint32_t w) {
   uint32_t t{millis()};
   // Attendre w millisecondes
@@ -192,17 +195,17 @@ void waitUntil(uint32_t w) {
    Note: On aurait pu utiliser l'objet global lcd directement.
 
    --------------------------------------------------------------- */
-# 131 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 134 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 void welcome(LiquidCrystal &l) {
   // D'abord le terminal série
   Serial.println((reinterpret_cast<const __FlashStringHelper *>(
-# 133 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 3
+# 136 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 3
                 (__extension__({static const char __c[] __attribute__((__progmem__)) = (
-# 133 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 136 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
                 "Bienvenue au GPA788 OC/IoT"
-# 133 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 3
+# 136 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 3
                 ); &__c[0];}))
-# 133 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 136 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
                 )));
   // Ensuite l'afficheur LCD
   l.setCursor(0, 0); // Cursuer à la 1ere colonne, 1ere ligne
@@ -220,29 +223,29 @@ void welcome(LiquidCrystal &l) {
    Note: On aurait pu utiliser l'objet global chipTemp directement.
 
    --------------------------------------------------------------- */
-# 146 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 149 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 void showTemp(dhtlib_gpa788 &DHT, LiquidCrystal &l) {
   DHTLIB_ErrorCode chk = DHT.read11();
 
   if (chk == DHTLIB_ErrorCode::DHTLIB_OK) {
     Serial.print((reinterpret_cast<const __FlashStringHelper *>(
-# 150 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 3
+# 153 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 3
                 (__extension__({static const char __c[] __attribute__((__progmem__)) = (
-# 150 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 153 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
                 "Temperature = "
-# 150 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 3
+# 153 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 3
                 ); &__c[0];}))
-# 150 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 153 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
                 )));
     Serial.println(DHT.getTemperature());
     Serial.print((reinterpret_cast<const __FlashStringHelper *>(
-# 152 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 3
+# 155 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 3
                 (__extension__({static const char __c[] __attribute__((__progmem__)) = (
-# 152 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 155 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
                 "Humidity = "
-# 152 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 3
+# 155 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 3
                 ); &__c[0];}))
-# 152 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 155 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
                 )));
     Serial.println(DHT.getHumidity());
 
@@ -254,22 +257,22 @@ void showTemp(dhtlib_gpa788 &DHT, LiquidCrystal &l) {
   }
   else {
     Serial.println((reinterpret_cast<const __FlashStringHelper *>(
-# 162 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 3
+# 165 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 3
                   (__extension__({static const char __c[] __attribute__((__progmem__)) = (
-# 162 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 165 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
                   "DHT11: Erreur"
-# 162 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 3
+# 165 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 3
                   ); &__c[0];}))
-# 162 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 165 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
                   )));
     Serial.print((reinterpret_cast<const __FlashStringHelper *>(
-# 163 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 3
+# 166 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 3
                 (__extension__({static const char __c[] __attribute__((__progmem__)) = (
-# 163 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 166 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
                 "DHT11:"
-# 163 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino" 3
+# 166 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino" 3
                 ); &__c[0];}))
-# 163 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+# 166 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
                 )));
     Serial.println(static_cast<int>(chk));
 

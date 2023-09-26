@@ -4,8 +4,8 @@
   "compiler.optimization_flags": "",
   "customBuildProperties": "",
   "fqbn": "arduino:avr:uno",
-  "hardwareFolders": "C:\\Users\\wway\\AppData\\Local\\Arduino15\\packages",
-  "otherLibrariesFolders": "\\\\yulvs101.rotalec.com\\UserMyDoc\\wway\\My Documents\\Arduino\\libraries",
+  "hardwareFolders": "C:\\Users\\twong\\AppData\\Local\\Arduino15\\packages",
+  "otherLibrariesFolders": "C:\\Users\\twong\\Documents\\Arduino\\libraries",
   "runtime.ide.version": "10607",
-  "sketchLocation": "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd"
+  "sketchLocation": "C:\\TEMP\\lab1\\lab1\\test_lcd"
 }

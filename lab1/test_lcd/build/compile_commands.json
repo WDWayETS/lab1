@@ -1,8 +1,8 @@
 [
  {
-  "directory": "c:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd",
+  "directory": "c:\\TEMP\\lab1\\lab1\\test_lcd",
   "arguments": [
-   "C:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "C:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -21,19 +21,19 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-I\\\\yulvs101.rotalec.com\\UserMyDoc\\wway\\My Documents\\Arduino\\libraries\\LiquidCrystal\\src",
-   "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\test_lcd.ino.cpp",
+   "-IC:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "-IC:\\Users\\twong\\Documents\\Arduino\\libraries\\LiquidCrystal\\src",
+   "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\test_lcd.ino.cpp",
    "-o",
-   "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\test_lcd.ino.cpp.o"
+   "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\test_lcd.ino.cpp.o"
   ],
-  "file": "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\test_lcd.ino.cpp"
+  "file": "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\test_lcd.ino.cpp"
  },
  {
-  "directory": "c:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd",
+  "directory": "c:\\TEMP\\lab1\\lab1\\test_lcd",
   "arguments": [
-   "C:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "C:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -52,19 +52,19 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-I\\\\yulvs101.rotalec.com\\UserMyDoc\\wway\\My Documents\\Arduino\\libraries\\LiquidCrystal\\src",
-   "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\ChipTemp.cpp",
+   "-IC:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "-IC:\\Users\\twong\\Documents\\Arduino\\libraries\\LiquidCrystal\\src",
+   "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\ChipTemp.cpp",
    "-o",
-   "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\ChipTemp.cpp.o"
+   "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\ChipTemp.cpp.o"
   ],
-  "file": "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\ChipTemp.cpp"
+  "file": "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\ChipTemp.cpp"
  },
  {
-  "directory": "c:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd",
+  "directory": "c:\\TEMP\\lab1\\lab1\\test_lcd",
   "arguments": [
-   "C:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "C:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -83,19 +83,19 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-I\\\\yulvs101.rotalec.com\\UserMyDoc\\wway\\My Documents\\Arduino\\libraries\\LiquidCrystal\\src",
-   "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\dht.cpp",
+   "-IC:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "-IC:\\Users\\twong\\Documents\\Arduino\\libraries\\LiquidCrystal\\src",
+   "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\DHTLib_GPA788.cpp",
    "-o",
-   "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\dht.cpp.o"
+   "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\DHTLib_GPA788.cpp.o"
   ],
-  "file": "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\dht.cpp"
+  "file": "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\DHTLib_GPA788.cpp"
  },
  {
-  "directory": "c:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd",
+  "directory": "c:\\TEMP\\lab1\\lab1\\test_lcd",
   "arguments": [
-   "C:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "C:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -114,19 +114,19 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-I\\\\yulvs101.rotalec.com\\UserMyDoc\\wway\\My Documents\\Arduino\\libraries\\LiquidCrystal\\src",
-   "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\DHTLib_GPA788.cpp",
+   "-IC:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "-IC:\\Users\\twong\\Documents\\Arduino\\libraries\\LiquidCrystal\\src",
+   "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\dht.cpp",
    "-o",
-   "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\DHTLib_GPA788.cpp.o"
+   "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\dht.cpp.o"
   ],
-  "file": "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\DHTLib_GPA788.cpp"
+  "file": "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\dht.cpp"
  },
  {
-  "directory": "c:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd",
+  "directory": "c:\\TEMP\\lab1\\lab1\\test_lcd",
   "arguments": [
-   "C:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "C:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -145,13 +145,13 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-I\\\\yulvs101.rotalec.com\\UserMyDoc\\wway\\My Documents\\Arduino\\libraries\\LiquidCrystal\\src",
-   "\\\\yulvs101.rotalec.com\\UserMyDoc\\wway\\My Documents\\Arduino\\libraries\\LiquidCrystal\\src\\LiquidCrystal.cpp",
+   "-IC:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "-IC:\\Users\\twong\\Documents\\Arduino\\libraries\\LiquidCrystal\\src",
+   "C:\\Users\\twong\\Documents\\Arduino\\libraries\\LiquidCrystal\\src\\LiquidCrystal.cpp",
    "-o",
-   "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\libraries\\LiquidCrystal\\LiquidCrystal.cpp.o"
+   "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\libraries\\LiquidCrystal\\LiquidCrystal.cpp.o"
   ],
-  "file": "\\\\yulvs101.rotalec.com\\UserMyDoc\\wway\\My Documents\\Arduino\\libraries\\LiquidCrystal\\src\\LiquidCrystal.cpp"
+  "file": "C:\\Users\\twong\\Documents\\Arduino\\libraries\\LiquidCrystal\\src\\LiquidCrystal.cpp"
  }
 ]

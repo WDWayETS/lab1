@@ -1,0 +1,3 @@
+# Dossier à ignorer par Git pour ce projet
+
+lab1/test_lcd/build/

@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\src\\DHTLib_GPA788.cpp"
+#line 1 "C:\\TEMP\\lab1\\lab1\\test_lcd\\src\\DHTLib_GPA788.cpp"
 //
 //    FILE: dht.cpp
 //  AUTHOR: Rob Tillaart
@@ -68,7 +68,7 @@ DHTLIB_ErrorCode dhtlib_gpa788::read11()
 
 bool dhtlib_gpa788::isConnected()
 {
-    return _readSensor(DHTLIB_DHT11_WAKEUP) == DHTLIB_ErrorCode::DHTLIB_OK;
+    return _readSensor(DHTLIB_DHT_WAKEUP) == DHTLIB_ErrorCode::DHTLIB_OK;
 }
 
 void dhtlib_gpa788::reset()

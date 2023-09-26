@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#line 1 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+#line 1 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 /*
  * test_lcd.ino
  * Utiliser la bibliothèque LiquidCrystal pour faire afficher
@@ -60,17 +60,17 @@ const int DHT11_PIN{7};
 /* ---------------------------------------------------------------
    Fonction d'initialisation obligatoire (exécutée 1 seule fois).
    --------------------------------------------------------------- */
-#line 61 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+#line 61 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 void setup();
-#line 83 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+#line 86 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 void loop();
-#line 120 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+#line 123 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 void waitUntil(uint32_t w);
-#line 131 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+#line 134 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 void welcome(LiquidCrystal &l);
-#line 146 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+#line 149 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 void showTemp(dhtlib_gpa788 &DHT, LiquidCrystal &l);
-#line 61 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\test_lcd.ino"
+#line 61 "C:\\TEMP\\lab1\\lab1\\test_lcd\\test_lcd.ino"
 void setup() {
   // Pour afficher la température sur le terminal série
   Serial.begin(9600);
@@ -80,6 +80,9 @@ void setup() {
   // de l'Arduino.
   waitUntil(2000);
 
+  // Régler la broche utilisée pour le capteur DHT11
+  DHT.setConnectedPin(DHT11_PIN);
+  
   // Pour l'afficheur LCD
   // 0) Il s'agir d'un afficheur 16 x 2
   lcd.begin(16, 2);

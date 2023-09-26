@@ -2,40 +2,40 @@
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "C:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+    "Includepath": "C:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
   },
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "C:\\Users\\wway\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
+    "Includepath": "C:\\Users\\twong\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
   },
   {
-    "Sourcefile": "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\test_lcd.ino.cpp",
+    "Sourcefile": "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\test_lcd.ino.cpp",
     "Include": "LiquidCrystal.h",
-    "Includepath": "\\\\yulvs101.rotalec.com\\UserMyDoc\\wway\\My Documents\\Arduino\\libraries\\LiquidCrystal\\src"
+    "Includepath": "C:\\Users\\twong\\Documents\\Arduino\\libraries\\LiquidCrystal\\src"
   },
   {
-    "Sourcefile": "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\test_lcd.ino.cpp",
+    "Sourcefile": "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\test_lcd.ino.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\ChipTemp.cpp",
+    "Sourcefile": "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\ChipTemp.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\DHTLib_GPA788.cpp",
+    "Sourcefile": "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\DHTLib_GPA788.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\build\\sketch\\src\\dht.cpp",
+    "Sourcefile": "C:\\TEMP\\lab1\\lab1\\test_lcd\\build\\sketch\\src\\dht.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "\\\\yulvs101.rotalec.com\\UserMyDoc\\wway\\My Documents\\Arduino\\libraries\\LiquidCrystal\\src\\LiquidCrystal.cpp",
+    "Sourcefile": "C:\\Users\\twong\\Documents\\Arduino\\libraries\\LiquidCrystal\\src\\LiquidCrystal.cpp",
     "Include": "",
     "Includepath": null
   }

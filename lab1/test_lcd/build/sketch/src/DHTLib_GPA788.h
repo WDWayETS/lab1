@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\src\\DHTLib_GPA788.h"
+#line 1 "C:\\TEMP\\lab1\\lab1\\test_lcd\\src\\DHTLib_GPA788.h"
 /*
  * DHTLib_GPA788.h
  * Mise à jour du code de Rob Tillaart en utilisant le C++ moderne.

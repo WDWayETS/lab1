@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\src\\dht.h"
+#line 1 "C:\\TEMP\\lab1\\lab1\\test_lcd\\src\\dht.h"
 //
 //    FILE: dht.h
 //  AUTHOR: Rob Tillaart

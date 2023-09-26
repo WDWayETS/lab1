@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\wway\\Desktop\\Perso\\École\\lab1\\test_lcd\\src\\ChipTemp.h"
+#line 1 "C:\\TEMP\\lab1\\lab1\\test_lcd\\src\\ChipTemp.h"
 /*  ChipTemp.h
  *  Cette classe a été conçue par Albert van Dalen
  *  pour réaliser la lecture de la température

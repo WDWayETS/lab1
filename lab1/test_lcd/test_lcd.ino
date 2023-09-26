@@ -67,6 +67,9 @@ void setup() {
   // de l'Arduino.
   waitUntil(2000);
 
+  // Régler la broche utilisée pour le capteur DHT11
+  DHT.setConnectedPin(DHT11_PIN);
+  
   // Pour l'afficheur LCD
   // 0) Il s'agir d'un afficheur 16 x 2
   lcd.begin(16, 2);
